@@ -1,4 +1,4 @@
-# include<stdio.h>
+#include<stdio.h>
 int main(){
    int a[]={10,5,20,54,23,0,2,99,51};
    int n=sizeof(a)/sizeof(a[0]);
