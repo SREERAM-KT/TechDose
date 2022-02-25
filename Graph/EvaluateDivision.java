@@ -56,7 +56,7 @@ class Solution {
             addEdge(map, equation.get(0), equation.get(1), values[i]);
             addEdge(map, equation.get(1), equation.get(0), 1 / values[i]);
         }
-
+   
         for (int i = 0; i < answer.length; i++) {
             List<String> query = queries.get(i);
             answer[i] = dfs(map, new HashSet<>(), query.get(0), query.get(1));
